@@ -8,7 +8,7 @@ GitHub Repo Viewer is designed to help users retrieve and view their GitHub repo
 
 ## Installation
 1. Clone the repository from GitHub.
-2. In the `application.properties` file, configure the application parameters such as the port on which the server should run.
+2. In the `application.properties` file, configure the application parameters.
 
 ## Usage
 ### Getting User Repositories
