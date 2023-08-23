@@ -1,14 +1,3 @@
 package pl.sebastiancielma.Atipera.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class RepositoryInfo {
-    private String name;
-    private boolean fork;
-    private OwnerInfo ownerInfo;
-}
+public record RepositoryInfo(String name, boolean fork, OwnerInfo ownerInfo, java.util.List<BranchInfo> branches) {}
