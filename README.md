@@ -38,4 +38,4 @@ The application is covered by unit tests that verify various use cases and error
 - Mockito
 - Lombok
 - Gradle
-- RestTemplate
+- WebClient
